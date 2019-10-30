@@ -1,0 +1,13 @@
+@color:orange;
+// @width:150px;
+// @height:150px;
+.text(@width,@height){
+    width:unit(@width,px);
+    height:unit(@height,px);
+}
+.App{
+    // width: 100px;
+    // height: 100px;
+    .text(150,150);
+    background-color: @color;
+}
